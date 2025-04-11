@@ -1,0 +1,35 @@
+Package: gabi
+Type: Package
+Title: Analyzes Padilla Lab DNT-60 behavioral data.
+Version: 0.2.0
+Authors@R:
+    person(given = "Zachary",
+           family = "Rowson",
+           role = c("aut", "cre"),
+           email = "Rowson.Zachary@epa.gov")
+Maintainer: Zachary Rowson <Rowson.Zachary@epa.gov>
+Description: Applies tcplfit2 BMC analysis to EPA ORD CCTE BCTD Stephanie Padilla 
+    Zebrafish photomotor response data.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    data.table,
+    tcplfit2,
+    tcpl,
+    ggplot2,
+    readxl,
+    magrittr,
+    stats,
+    MASS,
+    grDevices,
+    DescTools
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10),
+    tcplfit2,
+    ggplot2,
+    magrittr
